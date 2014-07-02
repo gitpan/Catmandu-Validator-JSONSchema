@@ -1,0 +1,9 @@
+Build.PL
+lib/Catmandu/Validator/JSONSchema.pm
+LICENSE
+MANIFEST			This list of files
+META.json
+META.yml
+README.md
+t/00.t
+t/01-validate_data.t

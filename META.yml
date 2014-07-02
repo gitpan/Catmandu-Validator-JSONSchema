@@ -1,0 +1,29 @@
+---
+abstract: 'Catmandu Validator for JSON Schema'
+author:
+  - nicolas.franck@ugent.be
+build_requires:
+  Module::Build: 0
+  Test::Exception: 0
+  Test::More: 0
+configure_requires:
+  Module::Build: 0
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4203, CPAN::Meta::Converter version 2.133380'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Catmandu-Validator-JSONSchema
+provides:
+  Catmandu::Validator::JSONSchema:
+    file: lib/Catmandu/Validator/JSONSchema.pm
+    version: 0.1
+requires:
+  Catmandu: 0.9103
+  JSON::Schema: 0
+  Moo: 0
+  perl: v5.10.0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.1
